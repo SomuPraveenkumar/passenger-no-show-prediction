@@ -1,2 +1,41 @@
-# passenger-no-show-prediction
-Predict passenger booking cancellations using PySpark and machine learning
+# Passenger No-Show Prediction using PySpark
+
+## 📌 Project Overview
+This project predicts whether a passenger will cancel their booking using machine learning techniques implemented in PySpark.
+
+## 🚀 Features
+- Data preprocessing and cleaning
+- Feature engineering using StringIndexer
+- Logistic Regression model
+- Evaluation using Accuracy and ROC-AUC
+- Visualization:
+  - Confusion Matrix
+  - ROC Curve
+  - Cancellation Distribution
+
+## 📊 Dataset
+The dataset contains:
+- From, To
+- VehicleType, VehicleClass
+- TripReason
+- Price, CouponDiscount
+- Domestic
+- Target: Cancel (0/1)
+
+## ⚙️ Technologies Used
+- Python
+- PySpark
+- Scikit-learn
+- Matplotlib
+
+## 📈 Model
+Logistic Regression is used for binary classification.
+
+## 📌 Results
+- Good prediction accuracy
+- Effective classification performance
+- Clear visualization insights
+
+## ▶️ How to Run
+
+1. Install dependencies:
