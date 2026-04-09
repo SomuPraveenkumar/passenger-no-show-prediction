@@ -38,4 +38,16 @@ Logistic Regression is used for binary classification.
 
 ## ▶️ How to Run
 
-1. Install dependencies:
+### 1. Install dependencies
+pip install pyspark matplotlib scikit-learn
+
+### 2. Open Command Prompt (CMD)
+
+### 3. Navigate to project folder
+cd path\to\your\project
+
+### 4. Run using PySpark
+pyspark
+
+### 5.Run directly using spark-submit
+spark-submit main.py
